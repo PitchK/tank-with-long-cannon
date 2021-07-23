@@ -50,6 +50,14 @@ body{
     margin-right: 12%;
 }
 
+#bottomcaption2{
+    margin-left: 12%;
+    font-size: 100%;
+    margin-right: 12%;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
 #header{
     display: block;
     display: flex;
@@ -119,7 +127,7 @@ body{
     border-radius: 40px;
     background-color: lightgrey;
     margin-left: 1%;
-    background: linear-gradient(to right, #42aaf5 0%, #42aaf5 70%, lightgrey 70%, lightgrey 100%);
+    background: linear-gradient(to right, #42aaf5 0%, #42aaf5 50%, lightgrey 50%, lightgrey 100%);
     padding-left: 1%;
     padding-top: auto;
     padding-bottom: auto;
@@ -132,7 +140,7 @@ body{
     border-radius: 40px;
     background-color: lightgrey;
     margin-left: 1%;
-    background: linear-gradient(to right, #42aaf5 0%, #42aaf5 70%, lightgrey 70%, lightgrey 100%);
+    background: linear-gradient(to right, #42aaf5 0%, #42aaf5 50%, lightgrey 50%, lightgrey 100%);
     padding-left: 2%;
     padding-top: auto;
     padding-bottom: auto;
@@ -386,6 +394,12 @@ img{
     #bottomCaption{
         font-size: 85%;
         text-align: center;
+    }
+
+    #bottomCaption2{
+        font-size: 80%;
+        text-align: center;
+        font-style: italic;
     }
 
     #bottomLinkHolder{
